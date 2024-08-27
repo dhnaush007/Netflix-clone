@@ -1,0 +1,48 @@
+.footer{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    left: 300px;
+    margin: 0;
+
+}
+.icon{
+     position: relative;
+     display: inline;
+     max-width: 50px;
+     padding: 10px;
+     padding-top: 50px;
+     cursor: pointer;
+}
+ 
+.footer-icons img {
+    cursor: pointer;
+}
+
+
+.text{
+    position: absolute;
+    display: inline-block;
+    padding-top: 110px;
+}
+.text ul{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+  margin-bottom: 20px;
+  list-style: none;
+ cursor: pointer;
+ padding-top: 20px;
+ font-size: 15px;
+ 
+ 
+  
+  
+} 
+
+.copyright-text{
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 10px;
+}
